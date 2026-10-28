@@ -1,0 +1,29 @@
+FLUXOIA — CENTRAL DE CONTROLE ESCURA | INSTALADOR PARA OUTRO COMPUTADOR
+
+O ZIP anterior continha SOMENTE o visual. Por isso o projeto nao existe em
+C:\Users\Aluno\Downloads; a pasta leandro.recife e de outro computador.
+
+COMO USAR (WINDOWS):
+1) Extraia TODO ESTE ZIP em uma pasta.
+2) Clique duas vezes no arquivo 1_INSTALAR_COMPLETO.bat.
+   Ele baixa o projeto publico do GitHub, aplica a interface escura, cria
+   C:\Users\Aluno\Downloads\FluxoIA_CENTRAL_COMPLETA e instala bibliotecas.
+   Precisa de internet e Python 3 (idealmente Python 3.12) instalado.
+   O treino SOMENTE e executado caso os artefatos nao estejam no GitHub.
+3) Clique duas vezes em 2_ABRIR_FLUXOIA.bat.
+4) Abra http://localhost:8501 no Chrome e teste as tres abas.
+
+Se o Windows informar que Python nao foi encontrado, instale Python 3.12.
+Se o computador da escola tiver restricoes de internet ou instalacao de
+bibliotecas, o instalador pode falhar. Copie o erro do terminal.
+
+IMPORTANTE: O instalador baixa os arquivos do projeto original a partir de
+https://github.com/slakkk0804-blip/fluxo-IA e copia APENAS o layout novo
+(app.py, estilo_central.css e .streamlit/config.toml) sobre eles.
+Nao modifica o GitHub nem o deploy Render.
+
+O ZIP em si e leve porque os pesos de IA/dataset sao baixados do GitHub
+na primeira instalacao. A instalacao do YOLO pode exigir bastante espaco
+em disco e download; e um requisito para o processamento de videos.
+
+NAO execute comandos contendo C:\Users\leandro.recife neste computador.
